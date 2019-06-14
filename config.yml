@@ -1,0 +1,5 @@
+messages:
+  no-permission: "&7[&dRPConfigGUI&7] &cYou don't have permission for that!"
+  only-players: "&7[&dRPConfigGUI&7] &cOnly players can use that command!"
+permissions:
+  use: "rpconfig.use"

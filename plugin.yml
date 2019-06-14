@@ -1,0 +1,9 @@
+name: RPConfigGUI
+version: 1.1
+author: Puyodead1
+main: io.github.puyodead1.RPConfigGUI.RPConfigGUI
+depend: [RandomPackage]
+api-version: 1.13
+commands:
+  rpconfig:
+    description: open settings menu
