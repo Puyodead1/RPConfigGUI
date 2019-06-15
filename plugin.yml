@@ -1,5 +1,5 @@
 name: RPConfigGUI
-version: 1.1
+version: 1.2
 author: Puyodead1
 main: io.github.puyodead1.RPConfigGUI.RPConfigGUI
 depend: [RandomPackage]

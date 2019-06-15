@@ -21,6 +21,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import io.github.puyodead1.RPConfigGUI.Events.InventoryClick;
+
 public class RPConfigGUI extends JavaPlugin {
 
 	public void onEnable() {
@@ -76,7 +78,7 @@ public class RPConfigGUI extends JavaPlugin {
 	public void InitEvents() {
 		long started = System.currentTimeMillis();
 		
-		getServer().getPluginManager().registerEvents(new Events(), this);
+		getServer().getPluginManager().registerEvents(new InventoryClick(), this);
 		
 		Bukkit.getConsoleSender().sendMessage(Utils.ChatColor("&7[&dRPConfigGUI&7] &bLoaded Events &e(" + (System.currentTimeMillis()-started) + "ms)"));
 	}
