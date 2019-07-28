@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  ******************************************************************************/
-package io.github.puyodead1.RPConfigGUI.Events;
+package me.puyodead1.rpconfiggui.Events;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -24,9 +24,9 @@ import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.puyodead1.RPConfigGUI.Inventories;
-import io.github.puyodead1.RPConfigGUI.ItemStacks;
-import io.github.puyodead1.RPConfigGUI.Utils;
+import me.puyodead1.rpconfiggui.Inventories;
+import me.puyodead1.rpconfiggui.ItemStacks;
+import me.puyodead1.rpconfiggui.Utils;
 import me.randomhashtags.randompackage.RandomPackage;
 
 public class InventoryClick implements Listener {

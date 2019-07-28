@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  ******************************************************************************/
-package io.github.puyodead1.RPConfigGUI;
+package me.puyodead1.rpconfiggui;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -21,7 +21,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import io.github.puyodead1.RPConfigGUI.Events.InventoryClick;
+import me.puyodead1.rpconfiggui.Events.InventoryClick;
 
 public class RPConfigGUI extends JavaPlugin {
 
