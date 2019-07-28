@@ -36,10 +36,11 @@ public class InventoryClick implements Listener {
 		if (!e.isCancelled() && e.getCurrentItem() != null && !e.getCurrentItem().getType().equals(Material.AIR)
 				&& e.getClickedInventory() != null && e.getCursor() != null
 				&& !e.getClick().equals(ClickType.DOUBLE_CLICK)) {
+			String invTitle = e.getView().getTitle();
 			/*
 			 * Menu1 click
 			 */
-			if (e.getClickedInventory().getTitle().equals(Inventories.SettingsMenu1().getTitle())) {
+			if (invTitle.equals("RandomPackage Settings - 1")) {
 				e.setCancelled(true);
 				Player player = (Player) e.getWhoClicked();
 				ItemStack ci = e.getCurrentItem();
@@ -101,7 +102,7 @@ public class InventoryClick implements Listener {
 			/*
 			 * menu 2 click
 			 */
-			if (e.getClickedInventory().getTitle().equals(Inventories.SettingsMenu2().getTitle())) {
+			if (invTitle.equals("RandomPackage Settings - 2")) {
 				e.setCancelled(true);
 				Player player = (Player) e.getWhoClicked();
 				ItemStack ci = e.getCurrentItem();
@@ -158,7 +159,7 @@ public class InventoryClick implements Listener {
 			/*
 			 * Menu 3 click
 			 */
-			if (e.getClickedInventory().getTitle().equals(Inventories.SettingsMenu3().getTitle())) {
+			if (invTitle.equals("RandomPackage Settings - 3")) {
 				e.setCancelled(true);
 				Player player = (Player) e.getWhoClicked();
 				ItemStack ci = e.getCurrentItem();
