@@ -8,7 +8,7 @@ https://www.spigotmc.org/resources/rpconfiggui.68317/
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Puyodead1/RPConfigGUI.svg?style=plastic)
 ![GitHub](https://img.shields.io/github/license/Puyodead1/RPConfigGUI.svg?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Puyodead1/RPConfigGUI.svg?style=plastic)
-[![Build Status](http://185.230.160.95:8080/buildStatus/icon?job=RPConfigGUI)](http://185.230.160.95:8080/job/RPConfigGUI/)
+[![Build Status](http://ci.puyodead1-development.me/buildStatus/icon?style=plastic&job=RPConfigGUI)](http://ci.puyodead1-development.me/job/RPConfigGUI/)
 
 ## RPConfigGUI!<br>
 This plugin allows for editing the RandomPackage config from a Menu In-Game. Just toggle stuff on or off and restart the server!<br>
